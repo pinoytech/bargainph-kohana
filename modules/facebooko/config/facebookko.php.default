@@ -1,0 +1,10 @@
+<?php defined('SYSPATH') OR die('No direct access allowed.');
+
+return array(
+    'secret' => '2345678909888888765fghjk',
+    'app_id' => '34567890654',
+    'login_url' => array(
+        'scope' => 'user_activities,user_interests,user_birthday,user_groups,user_likes,user_religion_politics,user_education_history,user_work_history,user_hometown,user_location,user_relationships,email,publish_stream',
+        'redirect_uri' => URL::site('users/facebook', TRUE)
+    )
+);

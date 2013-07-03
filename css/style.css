@@ -1,0 +1,28 @@
+.header {
+	margin-top: 60px;
+}
+
+.search_input {
+	padding: 0px 8px 0px 8px !important;
+	line-height: 44px !important;
+	color: #888 !important;
+	font-size: 30px !important;
+	height: 44px !important;
+}
+
+.image_preview_container {
+	overflow: hidden;
+	width: 180px;
+	height: 100px;
+}
+
+.search_select {
+	color: #888 !important;
+	font-size: 30px !important;
+	height: 45px !important;
+}
+
+.search_button {
+	font-size: 30px !important;
+	height: 45px !important;
+}
